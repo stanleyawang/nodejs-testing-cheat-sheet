@@ -1,7 +1,13 @@
-# sinon-cheat-sheet
+# Sinon stub cheat sheet
 cheat sheet for sinon
 
-To stub default exports
+### To get the no. of times the stub was called
+
+```
+someFunctionStub.callCount
+```
+
+### To stub default exports
 
 ```
 e.g. abc.js
