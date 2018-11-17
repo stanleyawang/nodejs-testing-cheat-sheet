@@ -1,5 +1,5 @@
 ## Mocha cheat sheet
-use done() if you want to callbacks
+use done() if you want to test callbacks
 ```
 it('should call someFunction', function(done) {
    someFunction = () => {
