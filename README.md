@@ -1,6 +1,11 @@
 # Sinon stub cheat sheet
 cheat sheet for sinon
 
+### Return a Promise with a resolve value
+```
+sinon.stub(someModule, 'someFunction').returns(Promise.resolve(true));
+```
+
 ### To trigger the callback of a stub
 ```
 sinon.stub(someModule, 'someFunction').callsArgWith(1, null, 'kkk')
