@@ -1,4 +1,16 @@
-# Sinon stub cheat sheet
+## Mocha cheat sheet
+use done() if you want to callbacks
+```
+it('should call someFunction', function(done) {
+   someFunction = () => {
+      // some expect statements
+      done();
+   }
+   someFunction();
+})
+```
+
+## Sinon stub cheat sheet
 cheat sheet for sinon
 
 ### Return a Promise with a resolve value
